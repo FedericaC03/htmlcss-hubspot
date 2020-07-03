@@ -44,7 +44,7 @@ header::after {
 }
 
 .header-right {
-  padding-left: 310px;
+  padding-left: 350px;
 }
 
 .login {
@@ -74,8 +74,8 @@ header::after {
 
 nav {
   height: 80px;
-  border-bottom: 2px solid black;
 }
+
 .logo , .menu {
   float: left;
   width: 50%;
@@ -109,4 +109,43 @@ nav::after {
 
 .logo img {
   vertical-align: middle;
+}
+
+.banner {
+  background-color: #FFF2EF;
+  height: 900px;
+  color: #33475b;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  }
+
+.title {
+  width: 50%;
+  height: 100%;
+}
+
+.title h1 {
+  font-size: 50px;
+  font-weight:700;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.title .getfree {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title h4 {
+  font-weight: normal;
+  font-size: 15px;
 }
