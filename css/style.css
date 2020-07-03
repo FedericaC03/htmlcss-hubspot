@@ -44,7 +44,8 @@ header::after {
 }
 
 .header-right {
-  padding-left: 350px;
+  text-align: right;
+  /* padding-left: 350px; */
 }
 
 .login {
@@ -83,6 +84,9 @@ nav {
   line-height: 80px;
 }
 
+.menu {
+  text-align: right;
+}
 nav::after {
   content: '';
   display: table;
@@ -92,7 +96,7 @@ nav::after {
 .menu ul li {
   display: inline;
   text-decoration:none;
-  padding: 20px;
+  padding:10px;
 }
 
 .menu ul li a {
@@ -117,7 +121,7 @@ nav::after {
   color: #33475b;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 100%;
   background-size: cover;
   }
 
@@ -148,4 +152,19 @@ nav::after {
 .title h4 {
   font-weight: normal;
   font-size: 15px;
+}
+
+.cover {
+  height: 110px;
+  background-color: #AFEBE4;
+  width: 100%;
+  border-bottom: 4px solid #33475B;
+  border-top: 4px solid #33475B;
+  margin-top: -110px;
+
+}
+.prova {
+  background-color: blue;
+  height: 100px;
+  width: 100%;
 }
