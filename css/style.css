@@ -6,11 +6,12 @@
 
 body {
   font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #33475B;
 }
 
 .container {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 header {
@@ -117,12 +118,13 @@ nav::after {
 
 .banner {
   background-color: #FFF2EF;
-  height: 900px;
+  height: 650px;
   color: #33475b;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
+
   }
 
 .title {
@@ -154,17 +156,142 @@ nav::after {
   font-size: 15px;
 }
 
-.cover {
+.sezione-azzurra {
   height: 110px;
   background-color: #AFEBE4;
   width: 100%;
   border-bottom: 4px solid #33475B;
   border-top: 4px solid #33475B;
-  margin-top: -110px;
+}
+.sezione-cubo {
+  height: 450px;
+  width: 62%;
+  margin: auto;
+  text-align: center;
+  color: #33475B;
+}
+
+.sezione-cubo img {
+  width: 40%;
+  margin-top: 40px;
+}
+
+.sezione-centrale {
+  width: 100%;
+  height: 3000px;
+  background-color:#F4F9FD;
+}
+
+.sezione-cubo h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.sezione-crm {
+  background-color: white;
+  width: 100%;
+  height: 350px;
+  box-shadow: 1px 1px 1px 1px #E8EEF3;}
+
+.sezione-crm::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.sezione-crm-right{
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.sezione-crm-left {
+  float: left;
+  width: 30%;
+  height: 100%;
+  position: relative;
 
 }
-.prova {
-  background-color: blue;
-  height: 100px;
+.sezione-crm-left .learn-more {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.learn-more button {
+  border: none;
+  background-color: #FF7A59;
+  color: white;
+  padding: 20px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.sezione-crm-right h1 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.sezione-crm-right p {
+  width: 80%;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sezione-crm-right h3 {
+  font-weight:800;
+  margin-bottom: 30px;
+}
+
+.sezione-crm-right ul li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.sezione-crm-right ul li i {
+  color: #FF7A59;
+  margin-right: 10px;
+}
+
+.tre-colonne {
+  margin-top: 50px;
   width: 100%;
+  height: 600px;
+}
+
+.tre-colonne .left {
+  float: left;
+  background-color: green;
+  width: 30%;
+  height: 100px;
+
+}
+
+.tre-colonne .right {
+  background-color: red;
+  float: left;
+  width: 30%;
+  height: 100px;
+
+
+}
+.tre-colonne .central {
+  background-color: yellow;
+  float: left;
+  width: 30%;
+  height: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tre-colonne::after {
+  content: '';
+  display: table;
+  clear: both;
+
 }
