@@ -362,7 +362,7 @@ h3 {
 
 .sezione-community {
   background-image: linear-gradient(#00A9B8, #00B6AB);
-  height: 800px;
+  height: 730px;
   width: 100%;
   text-align:center;
   color: white;
@@ -399,4 +399,36 @@ h3 {
 
 .none {
   border-right: none;
+}
+
+.prima-riga i {
+  font-size: 35px;
+  margin-top:30px;
+}
+
+.prima-riga h1 {
+  padding: 20px;
+}
+
+.prima-riga p {
+  font-size: 10px;
+}
+
+.seconda-riga i {
+  font-size: 35px;
+  margin-top:30px;
+}
+
+.seconda-riga h1 {
+  padding: 20px;
+}
+
+.seconda-riga p {
+  font-size: 10px;
+}
+
+.sezione-partners {
+  width: 100%;
+  height: 200px;
+  background-color: blue;
 }
