@@ -20,12 +20,6 @@ body {
   border-bottom: 2px solid #CBD6E2;
 }
 
-.header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .header-left , .header-right {
   float: left;
   width: 50%;
@@ -46,7 +40,6 @@ body {
 
 .header-right {
   text-align: right;
-  /* padding-left: 350px; */
 }
 
 .login {
@@ -88,11 +81,6 @@ nav {
 .menu {
   text-align: right;
 }
-nav::after {
-  content: '';
-  display: table;
-  clear: both;
-}
 
 .menu ul li {
   display: inline;
@@ -124,7 +112,6 @@ nav::after {
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
-
   }
 
 .title {
@@ -193,13 +180,6 @@ nav::after {
   height: 350px;
   box-shadow: 1px 1px 1px 1px #E8EEF3;
   border-radius: 1%;
-
-}
-
-.sezione-crm::after{
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .sezione-crm-right{
@@ -213,8 +193,8 @@ nav::after {
   width: 30%;
   height: 100%;
   position: relative;
-
 }
+
 .sezione-crm-left .learn-more {
   width: 40%;
   position: absolute;
@@ -256,6 +236,7 @@ nav::after {
   margin-right: 20px;
   font-weight: bold;
 }
+
 .fa-check-circle {
   color: #FF7A59;
   margin-right: 10px;
@@ -284,8 +265,6 @@ nav::after {
   text-align: center;
   box-shadow: 1px 1px 1px 1px #E8EEF3;
   border-radius: 2%;
-
-
 }
 
 .tre-colonne .central {
@@ -295,14 +274,6 @@ nav::after {
   text-align: center;
   box-shadow: 1px 1px 1px 1px #E8EEF3;
   border-radius: 2%;
-
-}
-
-
-.tre-colonne::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .tre-colonne .left img {
@@ -331,7 +302,7 @@ nav::after {
   font-weight:bold;
 }
 
-hr {
+.hr {
   width: 300px;
   margin: auto;
   margin-top: 10px;
@@ -382,12 +353,6 @@ h3 {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   margin-top: 80px;
-}
-
-.contenitore::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .seconda-riga {
@@ -445,25 +410,17 @@ h3 {
   float: left;
 }
 
-.sezione-partners::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .sezione-partners .left h1{
   margin: auto;
   width: 50%;
   font-size: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
-
 }
 
 .sezione-partners .left p {
   width: 47%;
   margin:auto;
-
 }
 
 .sezione-partners .left h2 {
@@ -497,22 +454,16 @@ h3 {
   margin-top: 50px;
 }
 
-.sezione-partners .right::after {
-  content: '';
-  display: table;
-  clear:both;
-}
-
 footer {
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-color: #33475B;
   color: white;
 }
 
 .top , .bottom {
   width: 100%;
-  height: 200px;
+  height: 350px;
 }
 
 .top div {
@@ -522,11 +473,12 @@ footer {
   text-align: left;
 }
 
-.top::after {
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
+
 .top div h4 {
   margin-top: 30px;
 }
@@ -539,4 +491,106 @@ footer ul li {
 footer ul li a {
   color: #CBD6E2;
   text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #69ABDA;
+}
+
+.contact {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #33475B;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.quarta-colonna .fa-angle-down {
+  margin-left: 8px;
+}
+
+.contact:hover {
+  background-color: #CBD6E2;
+}
+
+.social li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.social i {
+  font-size: 25px;
+  color:#CBD6E2 ;
+}
+
+.social i:hover {
+  color:#69ABDA;
+}
+
+.lingue {
+  width: 100%;
+  height: 120px;
+  float: left;
+  text-align: center;
+  line-height: 80px;
+}
+
+.copyright {
+  width: 50%;
+  height: 80px;
+  float: left;
+}
+
+.policy {
+  width: 50%;
+  height: 80px;
+  float: left;
+}
+
+.lingue p {
+  display: inline;
+  margin-right: 20px;
+}
+
+.bottom {
+  color:#CBD6E2 ;
+  margin-top: 25px;
+}
+
+.lingue p a {
+  color:#CBD6E2 ;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.lingue p a:hover {
+  color:#69ABDA;
+}
+
+
+.copyright i {
+  margin-left: -10px;
+  margin-bottom: 15px;
+}
+
+.policy li {
+  display: inline;
+  margin-left: 30px;
+}
+
+.policy a {
+  text-decoration: none;
+  color: #CBD6E2;
+  font-size: 20px;
+}
+
+.policy {
+  text-align: right;
+}
+
+.linea {
+  color: #CBD6E2;
+  margin-top: 10px;
 }
