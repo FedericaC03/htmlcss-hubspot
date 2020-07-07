@@ -641,3 +641,16 @@ footer ul li a:hover {
   transform: translate(-50% , -50%);
   position: absolute;
 }
+
+.robot {
+  width: 17%;
+  margin-left: 42%;
+  margin-top: -30px;
+}
+
+.fa-times {
+ float: right;
+ margin-right: 20px;
+ margin-top: 15px;
+ font-size: 20px;
+}
