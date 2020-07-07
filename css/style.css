@@ -20,8 +20,9 @@ body {
   height: 80px;
   border-bottom: 2px solid #CBD6E2;
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
+  z-index: 1;
 }
 
 .header-left , .header-right {
@@ -81,6 +82,7 @@ body {
 
 nav {
   height: 80px;
+  margin-top: 80px;
 }
 
 .logo , .menu {
@@ -634,10 +636,11 @@ footer ul li a:hover {
   height: 150px;
   background-color: white;
   position: fixed;
-  bottom: 100px;
+  bottom: 120px;
   right: 15px;
   border-radius: 10px;
-  border: 0.1px solid black;
+  box-shadow: 1px 1px 1px 1px #E8EEF3;
+  z-index: 2;
 }
 
 .chatbox p {
@@ -664,7 +667,7 @@ footer ul li a:hover {
 
 .fa-comment-alt {
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   right: 15px;
   font-size: 40px;
   background-color: #33475B;
