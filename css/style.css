@@ -665,3 +665,9 @@ footer ul li a:hover {
   border-radius: 50%;
   color: white;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
