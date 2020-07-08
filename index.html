@@ -10,7 +10,6 @@
    <header class="clearfix">
 
      <div class="header container">
-
          <div class="header-left">
            <a href="#">
              <i class="fas fa-globe-europe">English</i>
@@ -21,10 +20,11 @@
 
          <div class="header-right">
            <i class="fas fa-search"></i>
-           <button class="login" type="button" name="button">Log in</button>
+           <button id="login" type="button" name="button">Log in</button>
            <button class="getfree" type="button" name="button">GetHubspotFree</button>
          </div>
      </div>
+
      <nav class="container clearfix">
        <div class="logo">
         <img src="img/logo.svg" alt="logo-hubspot">
@@ -77,14 +77,13 @@
  </header>
 
    <main>
-
    <div class="sezione-centrale container">
-
        <div class="sezione-cubo">
          <img src="img\Integrations_Illustration_2x.png" alt="cubo">
          <h1>Powerful alone. Better together.</h1>
          <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.</p>
        </div>
+
        <div class="sezione-crm clearfix">
          <div class="sezione-crm-left">
            <div class="learn-more">
@@ -128,7 +127,7 @@
                <i class="fas fa-check-circle"></i>Analytics
              </li>
            </ul>
-           <button id="btn" type="button" name="button">Learn more</button>
+           <button class="btn learnmore" type="button" name="button">Learn more</button>
          </div>
 
          <div class="central">
@@ -148,7 +147,7 @@
                 <i class="fas fa-check-circle"></i>Email Automation
               </li>
             </ul>
-            <button id="btn" type="button" name="button">Learn more</button>
+            <button class="btn learnmore" type="button" name="button">Learn more</button>
          </div>
 
          <div class="right">
@@ -168,7 +167,7 @@
                <i class="fas fa-check-circle"></i>Knowledge Base
              </li>
            </ul>
-           <button id="btn" type="button" name="button">Learn more</button>
+           <button class="btn learnmore" type="button" name="button">Learn more</button>
          </div>
        </div>
      </div>
@@ -179,19 +178,19 @@
           <p>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
 
            <div class="prima-riga">
-            <i class="icone far fa-handshake"></i>
+            <img class="icone" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg" alt="hubspot-users">
             <h1>150+</h1>
             <p>HubSpot user groups</p>
           </div>
 
            <div class="prima-riga">
              <img class="icone" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_blog.svg" alt="hubspot-blogs">
-            <h1>4.5M</h1>
-            <p>monthly visits</p>
+             <h1>4.5M+</h1>
+             <p>monthly visits</p>
            </div>
 
            <div class="prima-riga">
-             <i class="icone fas fa-graduation-cap"></i>
+             <img class="icone" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_academy.svg" alt="hubspot-academy">
              <h1>155K+</h1>
              <p>certified professionals</p>
            </div>
@@ -209,19 +208,19 @@
            </div>
 
            <div class="seconda-riga ">
-             <i class="icone fas fa-globe-europe"></i>
+              <img class="icone" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_globe.svg" alt="globe">
              <h1>6+</h1>
              <p>languages</p>
            </div>
 
            <div class="seconda-riga ">
-             <i class="icone far fa-comments"></i>
+             <img class="icone" src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_followers.svg" alt="socia-followers">
              <h1>2.6M+</h1>
              <p>social followers</p>
            </div>
 
            <div class="seconda-riga none ">
-             <i class="icone fas fa-users"></i>
+              <img class="icone" src="https://cdn2.hubspot.net/hubfs/53/Lists.svg" alt="customers">
              <h1>5K+</h1>
              <p>customers</p>
            </div>
@@ -233,10 +232,12 @@
           <h1>64,500</h1>
           <p>customers in over
             <strong>100</strong>
-            countries growing their businesses with HubSpot</p>
+            <br>countries growing their
+            <br> businesses with HubSpot
+          </p>
           <h2>Start Growing With HubSpot Today</h2>
           <h4>With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier.</h4>
-          <button class="getfree" id="btn" type="button" name="button">GetHubspotFree</button>
+          <button class="getfree btn" type="button" name="button">GetHubspotFree</button>
           <h6>Get started with FREE tools, or get more with our premium software.</h6>
         </div>
 
@@ -269,6 +270,7 @@
        </ul>
        <img class="woman" src="img/woman.webp" alt="woman-image">
      </div>
+   </div>
    </main>
 
    <footer class="container">
@@ -405,10 +407,8 @@
           </div>
 
           <div class="copyright">
-                 <h1>HubSp
-                   <i class="fab fa-hubspot"></i>
-                   t</h1>
-                <p>Copyright © 2020 HubSpot, Inc.</p>
+              <img src="https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_gray.svg" alt="">
+              <p>Copyright © 2020 HubSpot, Inc.</p>
           </div>
 
           <div class="policy">
